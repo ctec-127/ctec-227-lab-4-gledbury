@@ -36,19 +36,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <input type="text" class="form-control-sm" id="first_name" required name="first_name" placeholder="Enter first name">
     </div> 
     <div class="form-group">
-        <label class="register-text" for="last_name">Last Name<span style="color:red;font-weight:bold">*</span></label>
+        <label class="register-text" for="last_name">Last Name <span style="color:red;font-weight:bold">*</span></label>
         <input type="text" class="form-control-sm" id="last_name" required name="last_name" placeholder="Enter last name">
     </div>
     <div class="form-group">
-        <label class="register-text" for="username">Username<span style="color:red;font-weight:bold">*</span></label>
+        <label class="register-text" for="username">Username <span style="color:red;font-weight:bold">*</span></label>
         <input type="text" class="form-control-sm" id="username" required name="username" placeholder="Enter a username">
     </div>
     <div class="form-group">
-        <label class="register-text" for="email">Email<span style="color:red;font-weight:bold">*</span></label>
+        <label class="register-text" for="email">Email <span style="color:red;font-weight:bold">*</span></label>
         <input type="email" class="form-control-sm" id="email" required name="email" placeholder="Enter your email">
     </div>
     <div class="form-group">
-        <label class="register-text" for="password">Password<span style="color:red;font-weight:bold">*</span></label>
+        <label class="register-text" for="password">Password <span style="color:red;font-weight:bold">*</span></label>
         <input type="password" class="form-control-sm" id="password" required name="password" placeholder="Create a password">
     </div>
     <p class="required"> * required field</p>

@@ -16,6 +16,7 @@ require "includes/code.inc.php";
 </head>
     
 <body>
+<div class="gallery-container">
 <h2 class="intro">Image Gallery</h2>
 <a href="logout.php" class="btn btn-outline-dark btn-sm active" title="click to logout">Logout</a>
 
@@ -57,8 +58,10 @@ require "includes/code.inc.php";
             </div>
         </div>
 </div>
+</div>
     <footer>Created by George Ledbury for CTEC 227 Spring 2020</footer>
     <script src="js/script.js"></script>
+
 </body>
 
 </html>

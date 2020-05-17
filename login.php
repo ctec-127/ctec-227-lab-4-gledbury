@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <label class="login-label" for="password">Password</label>
                     <input type="password" class="form-control-sm" name="password" id="password" placeholder="password" required>
                     <br>
-                    <span class="login-password" id="showPassword" onclick="showPassword();">*Show Password*</span>
+                    <span class="login-password" id="showPassword" onclick="showPassword();">Show Password</span>
                 </div>
                 <input class="btn btn-light" type="submit" value="Login" title="click to login">
             </form>

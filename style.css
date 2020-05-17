@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* background-color: #f1eeee; */
 }
 
 .login-container {
@@ -116,7 +117,12 @@
     display: block;
     margin: 0 auto;
     text-align: center;
-    width: 80vw;
+    width: 100vw;
+}
+
+.gallery-container {
+    background-color: #f1eeee;
+    /* height: 95vh; */
 }
 
 .form-group>p {
@@ -210,6 +216,7 @@ img {
     color: #212121;
     padding-left: 150px;
     padding-bottom: 80px;
+    background-color: #f1eeee;
 }
 
 button {
@@ -239,4 +246,6 @@ img {
 
 footer {
     text-align: center;
+    background-color: #212121;
+    color: #fff9f9;
 }
