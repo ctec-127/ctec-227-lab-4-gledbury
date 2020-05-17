@@ -1,14 +1,132 @@
-.form-container {
-    padding-top: 50px;
-    padding-left: 200px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.form-label {
+.login-container {
+    height: 100vh;
+    background-image: url(images/image1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.login-container>p {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0px 60px 0px;
+    font: 2em sans-serif;
+    letter-spacing: 2px;
+}
+
+.container-login-fluid {
     display: block;
     text-align: center;
-    padding-bottom: 5px;
-    color: #212121;
-    font-weight: 500;
+}
+
+.login-label {
+    font: 2.5em sans-serif;
+    color: #ffffff;
+    padding-right: 10px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.login-password {
+    color: #ffffff;
+    font: 1.75em sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.register-container {
+    height: 100vh;
+    background-image: url(images/image1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.gallery-registration {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    font: 3em sans-serif;
+}
+
+.container-register-fluid {
+    display: block;
+    text-align: center;
+}
+
+.register-text {
+    color: #ffffff;
+    font: 2.5em sans-serif;
+}
+
+.required {
+    color: red;
+    font: 2em sans-serif;
+}
+
+.navbar {
+    height: 50px;
+    font-size: 1.25em;
+    padding: 20px;
+}
+
+.text-white {
+    padding-left: 20px;
+}
+
+.container-home {
+    height: 90vh;
+    background-image: url(images/image1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.welcome {
+    padding: 20px 20px 0px 20px;
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.directions {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 750;
+}
+
+.access {
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn-outline-dark {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 80vw;
+}
+
+.form-group>p {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.form-gallery-container {
+    padding-top: 50px;
+    padding-left: 200px;
 }
 
 .image-container {
@@ -28,6 +146,7 @@ img {
 .intro {
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .box-tools {
@@ -42,6 +161,8 @@ img {
     color: #92b0b3;
     position: relative;
     height: 100px;
+    width: 50vw;
+    margin: 0 auto;
 }
 
 .dropzone-desc {
@@ -50,7 +171,7 @@ img {
     left: 0;
     right: 0;
     text-align: center;
-    width: 40%;
+    width: 80%;
     top: 30px;
     font-size: 12px;
 }
@@ -68,6 +189,11 @@ img {
     background: lightgray;
 }
 
+.fas-upload {
+    width: 50vw;
+    margin: 0;
+}
+
 .fa-file-image {
     color: #212121;
 }
@@ -82,6 +208,8 @@ img {
 
 .fa-file-upload {
     color: #212121;
+    padding-left: 150px;
+    padding-bottom: 80px;
 }
 
 button {

@@ -1,5 +1,5 @@
 <?php
-
+    $dir=$_SESSION['username'];
     // Define these errors in an array
     $upload_errors = array(
         UPLOAD_ERR_OK                 => "No errors.",
@@ -22,7 +22,9 @@
         $target_file = basename($_FILES['file_upload']['name']);
 
         // set upload folder name
-        $upload_dir = 'uploads';
+        // $upload_dir = 'uploads';
+        $upload_dir = $_SESSION['username'];
+
 
         // Now lets move the file
         // move_uploaded_file returns false if something went wrong
@@ -32,16 +34,5 @@
             $error = $_FILES['file_upload']['error'];
             $message = $upload_errors[$error];
         } // end of if    
-    }
-
-
-    if (isset($_GET['file'])) {
-        copy('uploads/' . $_GET['file'],'backup/' . $_GET['file']);
-        if(unlink("uploads/" . $_GET['file'])){
-            header('Location: gallery.php');
-        } else {
-            echo '<p>File not deleted.</p>';
-        }       
     }        
-    
 ?>
