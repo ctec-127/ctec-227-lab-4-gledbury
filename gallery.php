@@ -36,8 +36,8 @@ require "includes/code.inc.php";
                     </div>
                 </div>
 
-                <div class="form-group">
-                    <div class="fas-upload">
+                <div class="row">
+                    <div class="col-md-10">
                         <button class="fas fa-file-upload fa-lg" type="submit" title="click to upload image"> Upload Your Image</button>
                         <?php
                         if (!empty($message)) {
@@ -48,7 +48,7 @@ require "includes/code.inc.php";
                 </div>
             </div>
         </form>
-
+        <?php require "includes/code.inc.php"; ?>
         <div class="image-container">
             <div class="row">
                 <div class="col-10 d-flex flex-wrap flex-row align-items-center justify-content-between">
