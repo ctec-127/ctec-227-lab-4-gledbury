@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <input type="password" class="form-control-sm" id="password" required name="password" placeholder="Create a password">
     </div>
     <p class="required"> * required field</p>
-    <button type="submit" class="btn btn-dark" title="click to register & login">Register & login</button>
+    <button type="submit" class="btn btn-dark" title="click to register & login">Register</button>
 </form>
 </div>
 </div>
